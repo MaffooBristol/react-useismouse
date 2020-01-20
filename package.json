@@ -1,6 +1,6 @@
 {
   "name": "useismouse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook to state if mouse or keyboard is being used",
   "main": "index.js",
   "scripts": {
