@@ -1,0 +1,14 @@
+{
+  "name": "useismouse",
+  "version": "1.0.0",
+  "description": "React hook to state if mouse or keyboard is being used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maffcorp Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
