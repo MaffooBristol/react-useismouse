@@ -13,8 +13,12 @@ export default function useIsMouse() {
       setIsMouse(false);
     });
     return () => {
-      onClick.removeEventListener();
-      onKeyboard.removeEventListener();
+      if (onClick) {
+        onClick.removeEventListener();
+      }
+      if (onKeyboard) {
+        onKeyboard.removeEventListener();
+      }
     };
   }, []);
   return isMouse;
