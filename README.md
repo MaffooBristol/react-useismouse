@@ -66,3 +66,5 @@ function App() {
   );
 }
 ```
+
+Please take caution with the above approach, however, as it can cause needless re-renders of the entire React tree on keypress or click. A better option would be to use it in each individual button and input component.
