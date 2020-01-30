@@ -8,7 +8,7 @@ export default [
 	{
 		input: 'src/index.js',
 		output: {
-			name: 'howLongUntilLunch',
+			name: 'useismouse',
 			file: pkg.browser,
 			format: 'umd'
 		},
