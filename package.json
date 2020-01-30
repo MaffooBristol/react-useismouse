@@ -1,14 +1,25 @@
 {
   "name": "useismouse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React hook to state if mouse or keyboard is being used",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maffcorp Ltd",
   "license": "ISC",
   "peerDependencies": {
     "react": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "rollup": "^1.30.1",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
