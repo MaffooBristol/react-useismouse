@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function useIsMouse({ blacklistedKeys = null, whitelistedKeys = null }) {
+export default function useIsMouse({ blacklistedKeys = null, whitelistedKeys = null } = {}) {
   const [isMouse, setIsMouse] = useState(true);
   useEffect(() => {
     const onClick = () => {
