@@ -1,13 +1,13 @@
 {
   "name": "useismouse",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "React hook to state if mouse or keyboard is being used",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
   "scripts": {
     "build": "rollup -c",
-    "postinstall": "npm install && npx rollup -c",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maffcorp Ltd",
