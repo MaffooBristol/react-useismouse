@@ -1,6 +1,6 @@
 {
   "name": "useismouse",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React hook to state if mouse or keyboard is being used",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
